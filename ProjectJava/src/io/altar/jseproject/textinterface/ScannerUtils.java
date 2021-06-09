@@ -1,7 +1,7 @@
 package io.altar.jseproject.textinterface;
 
 import java.util.Scanner;
-
+// esta vai ser a unica classe responsável para imprimir e escrever coisas na consola ( dar informação ao utilizador)
 public class ScannerUtils {
 	private Scanner scan = new Scanner(System.in);
 

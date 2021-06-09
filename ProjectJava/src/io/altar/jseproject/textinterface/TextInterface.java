@@ -9,9 +9,9 @@ public class TextInterface {
 		while (true) {
 
 			System.out.println("Selecionar opção");
-			System.out.println("Listar produtos");
-			System.out.println("Listar prateleiras");
-			System.out.println("Sair");
+			System.out.println("1.Listar produtos");
+			System.out.println("2.Listar prateleiras");
+			System.out.println("3.Sair");
 
 			int userInput = scan.getInRange(1, 3);
 			if (userInput == 1) {
@@ -23,8 +23,7 @@ public class TextInterface {
 
 			if (userInput == 3) {
 				return;
-			}
-
+			} 
 		}
 
 	}
@@ -33,15 +32,15 @@ public class TextInterface {
 
 		while (true) {
 			System.out.println("Selecionar Opção");
-			System.out.println("Criar novo produto");
-			System.out.println("Editar um produto existente");
-			System.out.println("Consultar o detalhe de um produto");
-			System.out.println("Remover produto");
-			System.out.println("Voltar ao ecrã anterior");
+			System.out.println("1.Criar novo produto");
+			System.out.println("2.Editar um produto existente");
+			System.out.println("3.Consultar o detalhe de um produto");
+			System.out.println("4.Remover produto");
+			System.out.println("5.Voltar ao ecrã anterior");
 
 			int userInput = scan.getInRange(1, 5);
 			if (userInput == 1) {
-				// Definir mais tarde
+				//ver o video da aula de hoje
 			}
 			if (userInput == 2) {
 				// Definir mais tarde
@@ -61,16 +60,17 @@ public class TextInterface {
 
 	}
 
+	
 	public void screenThree() {
 
 		while (true) {
 
 			System.out.println("Selecionar opção");
-			System.out.println("Criar novo produto");
-			System.out.println("Editar um produto existente");
-			System.out.println("Consultar detalhe de um produto");
-			System.out.println("Remover produto");
-			System.out.println("Voltar ao ecrã anterior");
+			System.out.println("1.Criar novo produto");
+			System.out.println("2.Editar um produto existente");
+			System.out.println("3.Consultar detalhe de um produto");
+			System.out.println("4.Remover produto");
+			System.out.println("5.Voltar ao ecrã anterior");
 
 			int userInput = scan.getInRange(1, 5);
 			if (userInput == 1) {
@@ -89,7 +89,6 @@ public class TextInterface {
 			if (userInput == 5) {
 				return;
 			}
-
 		}
 
 	}
